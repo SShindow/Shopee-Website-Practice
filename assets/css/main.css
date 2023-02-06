@@ -135,7 +135,28 @@
     cursor: default;
     transform-origin: calc(100% - 20px) top ;
     animation: headerNotificationAnimation ease-in 0.22s;
+    will-change: opacity, transform;
     display: none;
+}
+
+.header__notification::before{
+    content: "";
+    border-style: solid;
+    border-width: 20px 28px;
+    position: absolute;
+    right: 0;
+    top: -25px;
+    border-color: transparent transparent var(--white-color) transparent;
+}
+
+.header__notification::after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top:-16px;
+    width: 90px;
+    height: 20px;
 }
 
 @keyframes headerNotificationAnimation{
