@@ -20,7 +20,9 @@
     min-height: 26px;
 }
 
-.header__navbar-item--has-qr:hover .header__qr{
+/* Hover trigger */
+.header__navbar-item--has-qr:hover .header__qr,
+.header__navbar-item--has-noti:hover .header__notification{
     display: block;
 }
 
@@ -122,3 +124,104 @@
     height: 16px;
 }
 
+/* Notification */
+.header__notification{
+    position: absolute;
+    top: 118%;
+    right: 0;
+    width: 404px;
+    border: 1px solid #d3d3d3;
+    background-color: var(--white-color);
+    cursor: default;
+    transform-origin: calc(100% - 20px) top ;
+    animation: headerNotificationAnimation ease-in 0.22s;
+    display: none;
+}
+
+@keyframes headerNotificationAnimation{
+    from{
+        opacity: 0;
+        transform: scale(0);
+    } 
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.header__notification-header{
+    height: 40px;
+    background-color: var(--white-color);
+}
+
+.header__notification-header h3{
+    color: #999;
+    margin: 0 0 0 12px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 40px;
+    user-select: none;
+}
+
+.header__notification-list{
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.header__notification-item{
+    display: flex;
+}
+
+.header__notification-item:hover{
+    background-color: #f7f7f7;
+}
+
+.header__notification-item--unread{
+    background-color: rgba(238, 75 ,43, 0.08);
+}
+
+.header__notification-link{
+    display: flex;
+    padding: 12px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.header__notification-img{
+    width: 48px;
+    object-fit: contain;
+}
+
+.header__notification-info{
+    margin-left: 12px;
+}
+
+.header__notification-title{
+    display: block;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.header__notification-description{
+    display: block;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: var(--text-color);
+    margin-top: 4px;
+}
+
+.header__notification-footer{
+    display: flex;
+}
+
+.header__notification-footer-btn{
+    text-decoration: none;
+    color: var(--text-color);
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+}

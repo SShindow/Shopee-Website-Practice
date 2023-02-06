@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.1/css/all.min.css">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <div class="app">
         <header class="header">
@@ -20,39 +25,108 @@
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item">
-                            <a href="" class="header__navbar-item-link header__navbar-item-link--separate">Kênh người bán</a>
+                            <a href="" class="header__navbar-item-link header__navbar-item-link--separate">Kênh người
+                                bán</a>
                         </li>
                         <li class="header__navbar-item">
-                            <a href="" class="header__navbar-item-link header__navbar-item-link--separate">Trở thành người bán</a>
+                            <a href="" class="header__navbar-item-link header__navbar-item-link--separate">Trở thành
+                                người bán</a>
                         </li>
+                        <!-- Download app -->
                         <li class="header__navbar-item header__navbar-item--has-qr">
-                            <a href="" class="header__navbar-item-link header__navbar-item-link--separate">Tải ứng dụng
+                            <a href="" class="header__navbar-item-link header__navbar-item-link--separate">Tải ứng
+                                dụng
                                 <div class="header__qr">
                                     <img src="./assets/img/shopee_qr.png" alt="QR Code" class="header__qr-img">
                                     <div class="header__qr-apps">
                                         <a href="" class="header__qr-link">
-                                            <img src="./assets/img/appstore.png" alt="App Store" class="header__qr-download-img">
+                                            <img src="./assets/img/appstore.png" alt="App Store"
+                                                class="header__qr-download-img">
                                         </a>
                                         <a href="" class="header__qr-link">
-                                            <img src="./assets/img/googleplay.png" alt="App Store" class="header__qr-download-img">
+                                            <img src="./assets/img/googleplay.png" alt="App Store"
+                                                class="header__qr-download-img">
                                         </a>
                                     </div>
                                 </div>
                             </a>
                         </li>
                         <li class="header__navbar-item">
-                            <span class="header__navbar-title--no-pointer">Kết nối</span>   
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
                             <a href="" class="header__navbar-icon-link">
                                 <i class="header__navbar-icon fa-brands fa-facebook"></i></a>
-                            <a href="" class="header__navbar-icon-link">   
+                            <a href="" class="header__navbar-icon-link">
                                 <i class="header__navbar-icon fa-brands fa-instagram"></i></a>
                         </li>
                     </ul>
-    
+
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item">
+                        <!-- Notification -->
+                        <li class="header__navbar-item header__navbar-item--has-noti">
                             <a href="" class="header__navbar-item-link ">
                                 <i class="header__navbar-icon fa-solid fa-bell"></i>Thông báo</a>
+                            <div class="header__notification">
+                                <header class="header__notification-header">
+                                    <h3>Thông Báo Gần Đây</h3>
+                                </header>
+                                <ul class="header__notification-list">
+                                    <li class="header__notification-item header__notification-item--unread">
+                                        <a href="" class="header__notification-link">
+                                            <img src="https://scontent.fsgn8-2.fna.fbcdn.net/v/t1.15752-9/329744114_587617529508337_1796418792699712018_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=T4g3uG0Q2k0AX-s4583&_nc_ht=scontent.fsgn8-2.fna&oh=03_AdR60w5HvVLj2rSNersEUEuZJvL3JZxe7FW78E9CqCmHHA&oe=64089262"
+                                                alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-title">THAM GIA SĂN SALE TỤT LỒN NGÀY
+                                                    2/3/2023 NẾU KHÔNG BẠN NGU NHƯ CHÓ </span>
+                                                <span class="header__notification-description">Nhiều mặt hàng giảm
+                                                    giá lên đến 101% đang chờ bạn!</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notification-item header__notification-item--unread">
+                                        <a href="" class="header__notification-link">
+                                            <img src="https://cdn.tgdd.vn/Products/Images/42/289696/iphone-14-pro-bac-thumb.jpg"
+                                                alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-title">Đang vận chuyển </span>
+                                                <span class="header__notification-description">Đơn hàng ABQM120Z với mã vận đơn SPXVN123456789 đã được người bán Tim Cook giao cho đơn vị vận chuyển với phương thức vận chuyển Nhanh</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notification-item">
+                                        <a href="" class="header__notification-link">
+                                            <img src="https://noithatalpha.com/wp-content/uploads/2022/03/nha-cap-4-4-phong-ngu.jpg"
+                                                alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-title">Đã giao hàng thành công! </span>
+                                                <span class="header__notification-description">Đơn hàng nhà cấp 4 đã được giao đến cho bạn thành công vào ngày 6/9/2069</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notification-item">
+                                        <a href="" class="header__notification-link">
+                                            <img src="data:image/jpeg;base64,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"
+                                                alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-title">Đơn hàng đã bị hủy. </span>
+                                                <span class="header__notification-description">Đơn hàng ambatukam bạn đặt vào ngày 6/9/2023 đã bị hủy vì đơn hàng đã ngất vì sụk cằc</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notification-item">
+                                        <a href="" class="header__notification-link">
+                                            <img src="https://scontent.fsgn13-2.fna.fbcdn.net/v/t1.15752-9/322813134_1482672455594998_3212608143033725264_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=lrKAEOze3pcAX8V9rtP&_nc_ht=scontent.fsgn13-2.fna&oh=03_AdTPahGnd-Lht4OPBvLcMC8lLM_lT7Rv0vm1z2rpbQ8Fog&oe=64087BF6"
+                                                alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-title">Đặt hàng thành công! </span>
+                                                <span class="header__notification-description">Thành công đặt hàng chó lai lợn ngu Lê Nguyên Hoàng. Chủ bán sẽ xác nhận đơn hàng trong thời gian tới </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notification-footer">
+                                    <a href="" class="header__notification-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
                         </li>
                         <li class="header__navbar-item">
                             <a href="" class="header__navbar-item-link ">
@@ -63,7 +137,9 @@
                                 <i class="header__navbar-icon fa-solid fa-globe"></i>Tiếng Việt</a>
                         </li>
                         <li class="header__navbar-item">
-                            <a href="" class="header__navbar-item-link header__navbar-item-link--bold header__navbar-item-link--separate">Đăng kí</a>
+                            <a href=""
+                                class="header__navbar-item-link header__navbar-item-link--bold header__navbar-item-link--separate">Đăng
+                                kí</a>
                         </li>
                         <li class="header__navbar-item">
                             <a href="" class="header__navbar-item-link header__navbar-item-link--bold">Đăng nhập</a>
@@ -82,4 +158,5 @@
         </footer>
     </div>
 </body>
+
 </html>
