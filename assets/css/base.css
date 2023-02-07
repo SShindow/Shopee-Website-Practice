@@ -61,15 +61,47 @@ html{
 }
 
 .modal__body{
-    width: 300px;
-    height: 300px;
     margin: auto;
-    background-color: var(--white-color);
     position: relative;
     z-index: 1;
-    border-radius: 5px;
 }
 
-.modal__inner{
+/* Button style */
 
+.btn {
+    min-width: 142px;
+    min-height: 34px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0 12px;
+    outline: none;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.btn--normal:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.btn.btn--primary{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.btn.btn--disabled{
+    background-color: #ccc;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.btn--size-s{
+    height: 32px;
+    font-size: 1.2rem;
+    padding: 0 8px;
+    min-width:200px;
 }

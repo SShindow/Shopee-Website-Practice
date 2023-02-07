@@ -170,13 +170,13 @@
     <div class="modal">
         <div class="modal__overlay"></div>
         <div class="modal__body">
-            <div class="modal__inner">
 
-                <!-- Form -->
-                <div class="auth-form">
+            <!-- Form -->
+            <div class="auth-form">
+                <div class="auth-form__container">
                     <div class="auth-form__header">
                         <h3 class="auth-form__heading">Đăng kí</h3>
-                        <span class="auth-form__switch-btn"></span>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
                     </div>
                     <div class="auth-form__form">
                         <div class="auth-form__group">
@@ -191,27 +191,26 @@
                     </div>
                     <div class="auth-form__aside">
                         <p class="auth-form__policy-text">Bằng cách đăng kí, bạn đồng ý với <a href=""
-                                class="auth-form__policy-link">Điều khoản sử dụng</a> và <a href=""
-                                class="auth-form__policy-link">Chính sách bảo mật</a> của chúng tôi</p>
+                                class="auth-form__text-link">Điều khoản sử dụng</a> và <a href=""
+                                class="auth-form__text-link">Chính sách bảo mật</a> của chúng tôi</p>
                     </div>
                     <div class="auth-form__controls">
-                        <button class="btn">QUAY LẠI</button>
-                        <button class="btn btn--primary">ĐĂNG KÍ</button>
+                        <button class="btn btn--normal auth-form__controls-return">QUAY LẠI</button>
+                        <button class="btn btn--primary ">ĐĂNG KÍ</button>
                     </div>
+                </div>
 
-                    <div class="auth-form__socials">
-                        <a href="" class="btn bth--with-icon">
-                            <i class="fa-brands fa-facebook"></i>
-                            Đăng kí bằng Facebook
-                        </a>
-                        <a href="" class="btn bth--with-icon">
-                            <i class="fa-brands fa-google"></i>
-                            Đăng kí bằng Google
-                        </a>
-                        
-                    </div>
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s bth--with-icon">
+                        <i class="auth-form__socials-icon fa-brands fa-facebook"></i>
+                        <span class="auth-form__socials-label">Đăng kí bằng Facebook</span>
+                    </a>
+                    <a href="" class="auth-form__socials--google btn btn--size-s bth--with-icon">
+                        <i class="auth-form__socials-icon fa-brands fa-google"></i>
+                        <span class="auth-form__socials-label">Đăng kí bằng Google</span>
+                    </a>
+
                 </div>
             </div>
 </body>
-
 </html>
