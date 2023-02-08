@@ -266,17 +266,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 12px;
+    margin-top: 12px;
 }
 
 .auth-form__heading{
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     font-weight: 400;
     color: var(--text-color);
 }
 
 .auth-form__switch-btn{
-    font-size: 1.6rem;
-    font-weight: 400;
+    font-size: 1.4rem;
+    font-weight: 500;
     color: var(--primary-color);
     cursor: pointer;
 }
@@ -359,3 +361,25 @@
     margin: 0px 20px;
 }
 
+.auth-form__help{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.auth-form__help-link{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #939393;
+}
+
+.auth-form__help-separate{
+    display: block;
+    height: 22px;
+    border-left: 1px solid #EAEAEA;
+    margin: -2px 16px 0px;
+}
+
+.auth-form__help-forget{
+    color: var(--primary-color);
+}
