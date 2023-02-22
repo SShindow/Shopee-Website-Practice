@@ -941,4 +941,74 @@
     color: var(--primary-color);
 }
 
-/* Main page filter */
+/* Main page sort+filter */
+.home-filter{
+    background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    padding: 12px 22px;
+}
+
+.home-filter__label{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin-right: 16px;
+}
+
+.home-filter__btn{
+    min-width: 90px;
+    margin-right: 12px;
+}
+
+.home-filter__pagination{
+    display: flex;
+    align-items: center; 
+    margin-left: auto;
+}
+
+.home-filter__pagination-num{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-right: 20px;
+}
+
+.home-filer__pagination-current{
+    color: var(--primary-color);
+}
+
+.home-filter__pagination-control{
+    border-radius: 2px;
+    overflow: hidden;
+    display: flex;
+    width: 72px;
+    height: 36px;
+}
+
+.home-filer__pagination-btn{
+    flex: 1;
+    display: flex;
+    background-color: var(--white-color);
+    text-decoration: none;
+}
+
+.home-filer__pagination-btn:first-child{
+    border-right: 1px solid #eee;
+}
+
+.home-filter__pagination__icon{
+    margin: auto;
+    font-size: 1.3rem;
+    color: #555;
+}
+
+.home-filer__pagination-btn--disabled {
+    cursor: default;
+    background-color: #f9f9f9;
+}
+
+.home-filer__pagination-btn--disabled .home-filter__pagination__icon{
+    color: #ccc;
+}
+
+
