@@ -1070,7 +1070,7 @@
 }
 
 .home-product-item__like{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .home-product-item__like-icon-empty{
@@ -1093,10 +1093,28 @@ i.home-product-item__like-icon-fill{
 .home-product-item__rating{
     font-size: 0.8rem;
     color: #d5d5d5;
+    margin: -1px 0 0 auto;
+
+}
+
+.home-product-item__rating--gold{
+    color: var(--rating-star-color);
+}
+
+.home-product-item__rating-sold{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-left: 4px;
 }
 
 .home-product-item__origin{
-
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 10px 0;
+    color: #595959;
+    font-weight: 300;
+    font-size: 1.2rem;
+    
 }
 
 .home-product-item__brand{
