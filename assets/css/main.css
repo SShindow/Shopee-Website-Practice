@@ -29,8 +29,12 @@
 }
 
 .header__navbar-user-icon{
-    color: var(--text-color);
-    position: absolute;
+    color: #F3777F;
+
+}
+
+.header__navbar-user-label{
+    color: #F3777F;
 }
 
 .header__navbar-user-item--separate{
@@ -1436,3 +1440,4 @@ i.home-product-item__like-icon-fill{
 .footer__policy-item-link:hover{
     color: var(--primary-color);
 }
+
