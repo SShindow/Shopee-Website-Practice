@@ -25,6 +25,12 @@
     justify-items: center;
     display: flex;
     position: relative;
+    
+}
+
+.header__navbar-user-icon{
+    color: var(--text-color);
+    position: absolute;
 }
 
 .header__navbar-user-item--separate{
@@ -90,7 +96,13 @@
 }
 
 .header__navbar-user-item{
+    
+}
 
+.header__navbar-user-icon{
+    font-size: 1.8rem;
+    position: absolute;
+    right: 16px;
 }
 
 .header__navbar-user-item a{
