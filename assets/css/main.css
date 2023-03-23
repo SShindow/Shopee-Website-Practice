@@ -1428,3 +1428,11 @@ i.home-product-item__like-icon-fill{
 .footer__region-item--active .footer__region-item-link{
     color: var(--primary-color);
 }
+
+.footer__region-item-link:hover{
+    color: var(--primary-color);
+}
+
+.footer__policy-item-link:hover{
+    color: var(--primary-color);
+}
