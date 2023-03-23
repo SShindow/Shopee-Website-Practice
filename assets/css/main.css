@@ -734,7 +734,7 @@
     display: none;
     animation: fadeIn ease-in 0.2s;
     cursor: default;
-    z-index: 1;
+    z-index: 2;
 }
 
 .header__cart-wrap:hover .header__cart-list{
@@ -814,6 +814,7 @@
 .header__cart-product:hover{
     background-color: #f8f8f8;
     cursor: pointer;
+    
 }
 
 .header__cart-product-img{
@@ -940,7 +941,6 @@
 
 .category-item--active .category-item__link{
     color: var(--primary-color);
-    
 }
 
 .category-item--active .category-item__link::before{
@@ -1423,4 +1423,8 @@ i.home-product-item__like-icon-fill{
 
 .footer__address-text{
     text-align: center;
+}
+
+.footer__region-item--active .footer__region-item-link{
+    color: var(--primary-color);
 }
