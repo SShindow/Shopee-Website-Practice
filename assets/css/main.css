@@ -708,11 +708,8 @@
 }
 
 /* Cart */
-.header__cart{
-    position: relative;
-    width: 150px;
-    text-align: center;
-}
+
+
 
 .header__cart-wrap{
     position: relative;
@@ -805,7 +802,6 @@
 .header__cart-list-product{
     padding-left: 0;
     list-style: none;
-    min-height: 30vh;
     max-height: 50vh;
     overflow-y: auto;
 }
