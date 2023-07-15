@@ -35,6 +35,9 @@
     .app__content{
         padding-top: 8px;
     }
+    .mobile-category{
+        display: block;
+    }
 }
 
 /* Tablet*/
@@ -82,6 +85,10 @@
         left: 0;
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     }
+    .header__mobile-search{
+        display: block;
+    }
+
     .pagination-item{
         margin: 0;
     }
@@ -92,6 +99,9 @@
     }
     .app__content{
         margin: 0 4px;
+    }
+    .header__logo-img{
+        width: 110px;
     }
     @keyframes mobileSearchSideIn{
         from{
